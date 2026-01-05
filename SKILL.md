@@ -7,6 +7,8 @@ description: Manage and configure Omarchy Linux systems. Use when user asks abou
 
 Manage [Omarchy](https://omarchy.org/) Linux systems using natural language.
 
+**After making any changes, always include an educational explanation - see "Learn More" section below.**
+
 ## ⛔ NEVER MODIFY CORE FILES
 
 **DO NOT edit, write, or delete any files in `~/.local/share/omarchy/`**
@@ -15,27 +17,15 @@ This directory contains Omarchy's core system files. User configuration belongs 
 
 If you need to change behavior controlled by a file in `~/.local/share/omarchy/`, find or create the corresponding override in `~/.config/`.
 
-## 📚 ALWAYS INCLUDE LEARN MORE BOX
+## 📚 Learn More
 
-**After making any changes, you MUST end your response with this exact format:**
+**After making any changes, end your response with an educational summary that explains:**
 
-> **Learn More**
->
-> **What changed:** [file path and what was modified]
->
-> **Why:** [how this achieves the user's goal]
->
-> **Key options:** [explain the config values that were set]
+1. **What changed** - which file(s) were modified and what was changed
+2. **Why it works** - how the changes achieve what the user asked for
+3. **Key options** - what the config values mean so the user can tweak them later
 
-**Example for waybar transparency:**
-
-> **Learn More**
->
-> **What changed:** `~/.config/waybar/style.css` - modified `background-color` property
->
-> **Why:** The `alpha()` function in CSS applies transparency to colors. Using `alpha(@background, 0.5)` makes the background 50% transparent.
->
-> **Key options:** The second value (0.5) controls opacity: 0 = fully transparent, 1 = fully opaque. Adjust this value to change transparency level.
+This helps users learn about Omarchy and Hyprland as they use it.
 
 ## Discovery
 
