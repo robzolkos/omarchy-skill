@@ -7,6 +7,14 @@ description: Manage and configure Omarchy Linux systems. Use when user asks abou
 
 Manage [Omarchy](https://omarchy.org/) Linux systems using natural language.
 
+## ⛔ NEVER MODIFY CORE FILES
+
+**DO NOT edit, write, or delete any files in `~/.local/share/omarchy/`**
+
+This directory contains Omarchy's core system files. User configuration belongs in `~/.config/` instead.
+
+If you need to change behavior controlled by a file in `~/.local/share/omarchy/`, find or create the corresponding override in `~/.config/`.
+
 ## Discovery
 
 Omarchy provides ~145 commands following the pattern `omarchy-<category>-<action>`.
