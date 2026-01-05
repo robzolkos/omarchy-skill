@@ -15,17 +15,27 @@ This directory contains Omarchy's core system files. User configuration belongs 
 
 If you need to change behavior controlled by a file in `~/.local/share/omarchy/`, find or create the corresponding override in `~/.config/`.
 
-## 📚 ALWAYS EXPLAIN CHANGES
+## 📚 ALWAYS INCLUDE LEARN MORE BOX
 
-After making any changes, **ALWAYS** end your response with a "Learn More" box:
+**After making any changes, you MUST end your response with this exact format:**
 
 > **Learn More**
 >
-> [What file(s) were modified or commands were run]
-> [Why these changes achieve the user's goal]
-> [What key config options were set and what they control]
+> **What changed:** [file path and what was modified]
+>
+> **Why:** [how this achieves the user's goal]
+>
+> **Key options:** [explain the config values that were set]
 
-This helps users understand their system as they use it.
+**Example for waybar transparency:**
+
+> **Learn More**
+>
+> **What changed:** `~/.config/waybar/style.css` - modified `background-color` property
+>
+> **Why:** The `alpha()` function in CSS applies transparency to colors. Using `alpha(@background, 0.5)` makes the background 50% transparent.
+>
+> **Key options:** The second value (0.5) controls opacity: 0 = fully transparent, 1 = fully opaque. Adjust this value to change transparency level.
 
 ## Discovery
 
@@ -167,26 +177,6 @@ omarchy-restart-<app>
 # Or reset to defaults (creates backup automatically)
 omarchy-refresh-<app>
 ```
-
-### 5. Explain What You Did
-
-After completing changes, include a **Learn More** section to help the user understand what happened:
-
-```
-> **Learn More**
->
-> [Explain what file(s) were modified or commands were run]
-> [Explain why these changes achieve the user's goal]
-> [Explain key config options that were set and what they control]
-```
-
-**Example:**
-
-> **Learn More**
->
-> Modified `~/.config/hypr/looknfeel.conf` to change window gaps.
-> The `gaps_in` setting controls space between adjacent windows (set to 5px).
-> The `gaps_out` setting controls space between windows and screen edges (set to 10px).
 
 ## Common Tasks
 
