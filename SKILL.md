@@ -156,6 +156,26 @@ omarchy-restart-<app>
 omarchy-refresh-<app>
 ```
 
+### 5. Explain What You Did
+
+After completing changes, include a **Learn More** section to help the user understand what happened:
+
+```
+> **Learn More**
+>
+> [Explain what file(s) were modified or commands were run]
+> [Explain why these changes achieve the user's goal]
+> [Explain key config options that were set and what they control]
+```
+
+**Example:**
+
+> **Learn More**
+>
+> Modified `~/.config/hypr/looknfeel.conf` to change window gaps.
+> The `gaps_in` setting controls space between adjacent windows (set to 5px).
+> The `gaps_out` setting controls space between windows and screen edges (set to 10px).
+
 ## Common Tasks
 
 ### Themes
