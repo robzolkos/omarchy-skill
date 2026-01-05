@@ -227,24 +227,25 @@ omarchy-reinstall
 
 ## Omarchy Manual
 
-For general questions about Omarchy, consult the official manual at `https://learn.omacom.io`.
+**IMPORTANT:** For general "how do I" questions, ALWAYS fetch the relevant manual page BEFORE answering. The manual at `https://learn.omacom.io` contains Omarchy-specific guidance that may differ from generic Linux advice.
 
-### When to Use the Manual
+### When to Fetch the Manual
 
-Use the manual when users ask:
-- "How do I..." / "What is..." / "Why does..." questions about Omarchy
+**Always fetch first** when users ask:
+- "How do I..." / "What is..." / "Why does..." questions
+- Questions about installing/running software (Windows, games, apps)
 - Questions about concepts, workflows, or best practices
-- Topics not directly related to running commands or editing configs
+- Topics where Omarchy may have a specific approach
 
 ### Manual Index
 
-Fetch the relevant page(s) based on the user's question:
+**Match the user's question to topic(s) below and fetch the page(s) before responding:**
 
 | Topic | Keywords | URL |
 |-------|----------|-----|
 | Welcome / Overview | what is omarchy, introduction, about | `/2/the-omarchy-manual/91/welcome-to-omarchy` |
 | Getting Started | install, installation, setup, ISO, new user | `/2/the-omarchy-manual/50/getting-started` |
-| Navigation | windows, tiling, workspaces, move, resize, focus | `/2/the-omarchy-manual/51/navigation` |
+| Navigation | tiling, workspaces, move, resize, focus, window management | `/2/the-omarchy-manual/51/navigation` |
 | Themes | theme, appearance, colors, look, style | `/2/the-omarchy-manual/52/themes` |
 | Extra Themes | community themes, more themes, additional themes | `/2/the-omarchy-manual/90/extra-themes` |
 | Making Themes | create theme, custom theme, theme development | `/2/the-omarchy-manual/92/making-your-own-theme` |
@@ -272,7 +273,7 @@ Fetch the relevant page(s) based on the user's question:
 | Prompt | starship, prompt, terminal prompt | `/2/the-omarchy-manual/95/prompt` |
 | Manual Installation | manual install, arch install, step by step | `/2/the-omarchy-manual/96/manual-installation` |
 | Mac Support | mac, macbook, intel mac, apple | `/2/the-omarchy-manual/97/mac-support` |
-| Windows VM | windows, vm, virtual machine, docker windows | `/2/the-omarchy-manual/100/windows-vm` |
+| Windows VM | windows, run windows, install windows, vm, virtual machine, microsoft | `/2/the-omarchy-manual/100/windows-vm` |
 | System Snapshots | snapshot, backup, restore, timeshift | `/2/the-omarchy-manual/101/system-snapshots` |
 | Common Tweaks | tweak, customize, adjust, modify | `/2/the-omarchy-manual/102/common-tweaks` |
 | Input Devices | keyboard, mouse, trackpad, touchpad, input | `/2/the-omarchy-manual/78/keyboard-mouse-trackpad` |
@@ -292,8 +293,10 @@ When a user asks a general question:
 3. **Extract the answer** from the page content
 4. **Summarize** the relevant information for the user
 
-Example: If user asks "How do I set up my fingerprint reader?"
-→ Fetch `https://learn.omacom.io/2/the-omarchy-manual/77/fingerprint-fido2-authentication`
+**Examples:**
+- "How do I set up my fingerprint reader?" → Fetch `/2/the-omarchy-manual/77/fingerprint-fido2-authentication`
+- "How do I install Windows on Omarchy?" → Fetch `/2/the-omarchy-manual/100/windows-vm`
+- "How do I install Steam?" → Fetch `/2/the-omarchy-manual/71/gaming`
 
 ## Example Requests
 
@@ -306,5 +309,6 @@ Example: If user asks "How do I set up my fingerprint reader?"
 - "Increase waybar height"
 - "Change my terminal font"
 - "How do I install Steam?"
+- "How do I install Windows on Omarchy?"
 - "What keyboard shortcuts are available?"
 - "How do I set up my fingerprint reader?"
