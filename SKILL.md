@@ -15,6 +15,18 @@ This directory contains Omarchy's core system files. User configuration belongs 
 
 If you need to change behavior controlled by a file in `~/.local/share/omarchy/`, find or create the corresponding override in `~/.config/`.
 
+## 📚 ALWAYS EXPLAIN CHANGES
+
+After making any changes, **ALWAYS** end your response with a "Learn More" box:
+
+> **Learn More**
+>
+> [What file(s) were modified or commands were run]
+> [Why these changes achieve the user's goal]
+> [What key config options were set and what they control]
+
+This helps users understand their system as they use it.
+
 ## Discovery
 
 Omarchy provides ~145 commands following the pattern `omarchy-<category>-<action>`.
